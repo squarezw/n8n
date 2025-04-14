@@ -102,7 +102,7 @@ export function prepareMessage(
 			'n8n-nodes-base.microsoftTeams',
 		)}${instanceId ? '_' + instanceId : ''}`;
 		messageType = 'html';
-		message = `${message}<br><br><em> Powered by <a href="${link}">this n8n workflow</a> </em>`;
+		message = `${message}<br><br><em> Powered by <a href="${link}">3L</a> </em>`;
 	}
 
 	return {
